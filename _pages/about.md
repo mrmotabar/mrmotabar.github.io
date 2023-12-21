@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a senior B.Sc. student majoring in Computer Science at the University of Tehran.\\
-What I love most about computer science is the way theory and real-world solutions come together. While I enjoy the theoretical stuff, I also like making it practical and useful in our everyday lives or in different industries. I'm excited about taking what I learn in the classroom and turning it into something that can really make a difference.
+What I love most about computer science is how theory and real-world solutions come together. While I enjoy the theoretical stuff from Computer Science and Mathematics, I also like making it practical and helpful in our everyday lives or industries. I'm excited about taking what I learn in the classroom and turning it into something that can truly make a difference.
 
 ## Interests
 

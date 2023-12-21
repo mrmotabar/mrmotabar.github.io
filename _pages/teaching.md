@@ -8,7 +8,7 @@ author_profile: true
 I greatly enjoy helping people and as a student, one way for me to be a helpful person is teaching, as I am able to share with people the love for knowledge that I have and provide them with the means to realize their capabilities. ‘Aha’ moments and helping students grasp complex concepts make a feeling in me that is truly indescribable.
 
 ## University of Tehran
-In the following courses at the Department of Mathematics, Statistics, and Computer Science at the University of Tehran, I was a teaching assistant, and mainly, along with other teaching assistants and the professor, were responsible for designing and grading assignments, projects, and exams as well as leading extra help sessions. 
+In the following courses at the Department of Mathematics, Statistics, and Computer Science at the University of Tehran, I was a teaching assistant, and mainly, along with other teaching assistants and the professor, were responsible for designing and grading assignments, projects, and exams as well as conducting practice and problem solving sessions. 
 
 * Fall 2023
     * Algebra 1 (Prof. A. Ghadermarzi)

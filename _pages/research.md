@@ -5,11 +5,11 @@ author_profile: true
 ---
 
 ## [University of Tehran, Iran](https://ut.ac.ir/en)
-During my Bachelor’s thesis project at the University of Tehran (Fall 2023), I delved into the many classic and modern primality test algorithms and factorization methods.\\
+During my Bachelor’s thesis project at the [University of Tehran](https://ut.ac.ir/en) (Fall 2023), I delved into the many classic and modern primality test algorithms and factorization methods.\\
 My primary reference was the [Prime Numbers](https://link.springer.com/book/10.1007/0-387-28979-8) book, a wonderful book by R. Crandall and C. Pomerance.
 
 ## [EPFL, Switzerland](https://www.epfl.ch/en/)
-During the summer of 2023, as a participant at the Summer@EPFl, I was a research assistant at the [LASEC](https://lasec.epfl.ch) lab under the supervision of [Dr. Foutsa](https://borisfouotsa.github.io).\\
+During the summer of 2023, as a participant at the [Summer@EPFL](https://summer.epfl.ch/), I was a research assistant at the [LASEC](https://lasec.epfl.ch) lab under the supervision of [Dr. Foutsa](https://borisfouotsa.github.io).\\
 I was working on primality testing and factorization methods. I was mainly studying the [General Number Field Sieve](https://en.wikipedia.org/wiki/General_number_field_sieve) algorithm, and then we tried to find a factorization method with the help of the doubling formula in the  [Montgomery Curves](https://en.wikipedia.org/wiki/Montgomery_curve).\\
 Since I had pretty trouble finding good resources for my research, I provide my presentation slides and some helpful materials that helped me during my research:
 <!-- Here are the slides that I prepared for my presentation about the GNFS and some helpful materials that helped me during this research: -->

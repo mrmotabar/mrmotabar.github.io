@@ -1,0 +1,92 @@
+{% include base_path %}
+
+{% if project.header.teaser %}
+{% capture teaser %}{{ project.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if project.id %}
+{% assign title = project.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = project.title %}
+{% endif %}
+
+{% if page.author and site.data.authors[page.author] %}
+{% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div class="{{ include.type | default: " list" }}__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if include.type == "grid" and teaser %}
+        <div class="archive__item-teaser">
+            <img src={% if teaser contains "://" %} "{{ teaser }}" {% else %} "{{ teaser | prepend: "/images/" |
+                prepend: base_path }}" {% endif %} alt="">
+        </div>
+        {% endif %}
+        <!-- {% if project.read_time %}
+        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+        {% endif %}
+        {% if project.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ project.date | date:
+            '%B %d, %Y' }}</p>{% endif %}
+        {% if project.venue %}<p class="archive__item-excerpt" itemprop="description">{{project.type}}, {{ project.venue }},
+            {{project.location}} {% endif %} -->
+        <div class="project-container project-hover" id="{{project.id}}" onclick="window.location.href='{{project.link}}'">
+            <div>
+                <a href="{{project.link}}" target="_blank">
+                    <img src="{{project.image}}" alt="Project Image" style="min-width: 180; max-width:220px; margin-right:20px; cursor:pointer;">
+                </a>
+            </div>
+            <div>
+                <div>
+                    <div style="display: flex; flex-direction:row; justify-content:space-between">
+                        <div style="float:left;">
+                            <h1 class="archive__item-title" itemprop="headline">
+                                {% if project.link %}
+                                <a href="{{ project.link }}">{{ title }}</a> <a href="{{ base_path }}{{ project.url }}" rel="permalink"><i
+                                        class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+                                {% else %}
+                                <a href="{{ base_path }}{{ project.url }}" rel="permalink">{{ title }}</a>
+                                {% endif %}
+                            </h1>
+                        </div>
+                        <div styile="float:right;">
+                            {% if project.githublink %}
+                                <a href="{{ project.githublink }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {%if project.date %}
+                    <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Project Date:</strong> 
+                        <time datetime="{{ project.date | default: " 1900-01-01" | date_to_xmlschema }}">
+                            {{ project.date | default: "1900-01-01" | date: "%B, %Y" }}
+                        </time>
+                    </p>
+                    {% endif %}
+                    {% if project.location %}
+                    <p>
+                        <em>{{ project.location }}</em>
+                    </p>
+                    {% endif %}
+                    {% if project.excerpt %}
+                    <p class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify }}</p>
+                    {% endif %}
+                    {% if project.skills %}
+                    <p>
+                        <strong>Skills:</strong> {{project.skills}}
+                    </p>
+                    {% endif %}
+                </div>
+                <!-- <footer class="page__meta">
+                    {% if site.data.ui-text[site.locale].meta_label %}
+                    <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+                    {% endif %}
+                    {% assign page = project %}
+                    {% include page__taxonomy.html %}
+                </footer> -->
+            </div>
+        </div>
+    </article>
+</div>
+
+
