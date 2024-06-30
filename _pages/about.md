@@ -13,5 +13,5 @@ What I love most about computer science is how theory and real-world solutions c
 
 ## Interests
 
-I love diving into the theoretical side of all computer science areas, especially when it comes to **Cryptography** – blending math with computers is my jam!\\
-I'm not just into one thing, though. I like working on **Designing Algorithms**, analyzing their complexity, and using them to solve problems. I'm also interested in **Automata Theory**, exploring the basic principles of computers. **Mechanism Design** and **Game Theory** are other areas I find fascinating.
+I love diving into the theoretical side of all computer science areas, especially when it comes to **Cybersecurity** and **Cryptography** – blending math with computers is my jam!\\
+I'm not just into one thing, though. I like working on **Designing Algorithms**, analyzing their complexity, and using them to solve problems. I'm also interested in **Automata Theory**, exploring the basic principles of computers.

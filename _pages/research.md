@@ -2,11 +2,15 @@
 title: "Research Experiences"
 permalink: /research/
 author_profile: true
+layout: archive
 ---
 
 ## [University of Tehran, Iran](https://ut.ac.ir/en)
-During my Bachelor’s thesis project at the [University of Tehran](https://ut.ac.ir/en) (Fall 2023), I delved into the many classic and modern primality test algorithms and factorization methods.\\
-My primary reference was the [Prime Numbers](https://link.springer.com/book/10.1007/0-387-28979-8) book, a wonderful book by R. Crandall and C. Pomerance.
+<!-- After gaining research experience at EPFL, my fascination with prime numbers deepened. This passion motivated me to undertake further research with the aim of building upon my previous work at EPFL.  -->
+
+For my Bachelor's project (Fall 2023), I extensively studied classic and modern primality tests and their underlying number theoretical foundations. Some notable areas I studied are the Fast Fourier Transform (FFT) algorithm for fast operation on numbers, the Tonelli–Shanks algorithm for computing square roots in rings, the Miller-Rabin primality test with the extension that is based on the extended Riemann hypothesis (ERH), Lucas and Grantham's Frobenius primality tests, Succinct Certificates, and AKS. Furthermore, I studied more about Elliptic Curves and the tests based on them, like ECM, Shanks–Mestre method, Schoof method, Goldwasser–Kilian primality test, and Atkin–Morain primality test (ECPP). My primary reference was the [Prime Numbers](https://link.springer.com/book/10.1007/0-387-28979-8) book, a wonderful book by R. Crandall and C. Pomerance.\\
+Under the guidance of Prof. Ghadermarzi, whose expertise lies in pure number theory, I received invaluable support in comprehending the theoretical nuances crucial to understanding these algorithms.
+
 
 ## [EPFL, Switzerland](https://www.epfl.ch/en/)
 During the summer of 2023, as a participant at the [Summer@EPFL](https://summer.epfl.ch/), I was a research assistant at the [LASEC](https://lasec.epfl.ch) lab under the supervision of [Dr. Foutsa](https://borisfouotsa.github.io).\\
